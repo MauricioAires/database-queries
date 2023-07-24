@@ -1,38 +1,33 @@
-<p align="center">
-  <img alt="Rocketseat Education" src="https://avatars.githubusercontent.com/u/69590972?s=200&v=4" width="100px" />
-</p>
+<h1 align="center">
+    <img src="./github/assets/cover.png">
+</h1>
 
-<p align="center">
-  <img src="https://img.shields.io/static/v1?label=Rocketseat&message=Education&color=8257e5&labelColor=202024" alt="Rocketseat Project" />
-  <a href="LICENSE"><img  src="https://img.shields.io/static/v1?label=License&message=MIT&color=8257e5&labelColor=202024" alt="License"></a>
-</p>
+### Sobre o projeto
 
+Nesse repositório, você realizará consultas no banco de dados com o TypeORM de três maneiras:
 
-## 💻 Projeto
+- Usando o ORM
+- Usando Query Builder
+- Usando Raw Query
 
-ignite-template-database-queries
+Isso irá te ajudar a entender e exercitar os diferentes tipos de consultas que podemos fazer.
 
-## 📝 Licença
+### Tecnologias
 
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+- [TypeScript](https://www.typescriptlang.org/docs/)
+- [PostgreSQL](https://www.postgresql.org/docs/)
+- [Typeorm](https://typeorm.io/)
 
----
+### Instalação
 
-<p align="center">
-  Feito com 💜 by Rocketseat
-</p>
+```sh
+yarn
+```
 
+### Contribuição
 
-<!--START_SECTION:footer-->
+Contribuições são bem-vindas! Para contribuir, basta abrir uma issue ou pull request neste repositório.
 
-<br />
-<br />
+### Autor
 
-<p align="center">
-  <a href="https://discord.gg/rocketseat" target="_blank">
-    <img align="center" src="https://storage.googleapis.com/golden-wind/comunidade/rodape.svg" alt="banner"/>
-  </a>
-</p>
-
-<!--END_SECTION:footer-->
-
+Feito por Mauricio Aires 👋🏽
