@@ -24,13 +24,18 @@ Isso irá te ajudar a entender e exercitar os diferentes tipos de consultas que 
 yarn
 ```
 
-``
-
 ### Comandos
 
+Container com o banco Postgres
+
 ```bash
-# Container com o banco Postgres
 $ docker run --name ignite-challenge-database-queries -e POSTGRES_DB=queries_challenge -e POSTGRES_PASSWORD=docker -p 5432:5432 -d postgres
+```
+
+Criar uma entity utilizando a CLI
+
+```bash
+$ npx typeorm entity:create Genres
 ```
 
 ### Contribuição
