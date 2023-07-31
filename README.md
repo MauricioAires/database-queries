@@ -24,6 +24,15 @@ Isso irá te ajudar a entender e exercitar os diferentes tipos de consultas que 
 yarn
 ```
 
+``
+
+### Comandos
+
+```bash
+# Container com o banco Postgres
+$ docker run --name ignite-challenge-database-queries -e POSTGRES_DB=queries_challenge -e POSTGRES_PASSWORD=docker -p 5432:5432 -d postgres
+```
+
 ### Contribuição
 
 Contribuições são bem-vindas! Para contribuir, basta abrir uma issue ou pull request neste repositório.
